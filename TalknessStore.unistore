@@ -1,0 +1,105 @@
+{
+	"storeInfo": {
+		"url": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.unistore",
+		"file": "TalknessStore.unistore",
+		"title": "TalknessStore",
+		"author": "TomTalker",
+		"description": "Another place to download homebrew.\nAuthor: TomTalker (Sonic Revolution)\nVersion: 0\nHomebrew is not mine and credit is given",
+		"sheet": "universal-db.t3x",
+		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
+		"version": 3,
+		"revision": 2
+	},
+	"storeContent": [{
+			"3DSX Release": [{
+					"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/ccleste.3dsx",
+					"message": "Downloading the app...",
+					"output": "sdmc:/3ds/ccleste.3dsx",
+					"type": "downloadFile"
+				}
+			],
+			"info": {
+				"title": "ccleste",
+				"version": "1.4.0",
+				"author": "lemon32767",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 212,
+				"license": "Mixed",
+				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
+			}
+		},
+		{
+			"Download": [{
+				"file": " ",
+				"message": "Downloading A release...",
+				"output": "s",
+				"type": "downloadFile"
+			}],
+			"info": {
+				"title": " ",
+				"version": " ",
+				"author": " ",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 21662,
+				"license": "",
+				"description": " "
+			}
+		},
+		{
+			"Download: [{
+				"file": "h ",
+				"message": "Download",
+				"output": " ,
+				"type": "downloadFile"
+			}],
+			"info": {
+				"title": " ",
+				"version": " ",
+				"author": " ",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 2181,
+				"license": "",
+				"description": " "
+			}
+		},
+		{
+			"CIA Release": [{
+					"file": "https://tinyurl.com/3dsgamebrewgame",
+					"message": "Downloading the ZIP...",
+					"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+					"type": "downloadFile"
+				},
+				{
+					"file": "/TalknessStore/tmp/ZIP.zip",
+					"message": "Extracting the ZIP..",
+					"input": "/",
+					"output": "/TalknessStore/tmp",
+					"type": "extractFile"
+				},
+				{
+					"file": "/TalknessStore/tmp/MicroClampett.cia",
+					"message": "Installing the CIA...",
+					"type": "installCia"
+				},
+				{
+					"file": "/TalknessStore/tmp",
+					"message": "Deleting unneeded stuff...",
+					"type": "deleteFile"
+				}
+			],
+			"info": {
+				"title": "Micro Clampett",
+				"version": "20180422",
+				"author": "Jayenkai",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 8210,
+				"license": "Mixed",
+				"description": "Guide little Clampett through the crazy maze, trying to find the way out. Clampett needs to find the exit, but it might be a good idea to collect some of the items first..."
+			}
+		}
+	]
+}
