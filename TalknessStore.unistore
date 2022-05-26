@@ -31,10 +31,24 @@
 		},
 		{
 			"NitroFS Download": [{
-				"file": " ",
+				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/SMBZDS-NitroFS.nds",
 				"message": "Downloading the app...",
 				"output": "smdc:/roms/nds/SMBZDS-NitroFun.nds",
 				"type": "downloadFile"
+		},
+		{
+			"FAT Download": [{
+				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/SMBZDS-FAT.zip",
+				"message": "Downloading the ZIP...",
+				"output": "smdc:/hahafunnyFATversion.zip",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/hahafunnyFATversion.zip",
+				"message": "Extracting the ZIP..",
+				"input": "/",
+				"output": "/",
+				"type": "extractFile"
 			}],
 			"info": {
 				"title": "SMBZ-DS",
@@ -44,25 +58,42 @@
 				"console": ["NDS"],
 				"icon_index": 21662,
 				"license": "Mixed",
-				"description": "SMBZ-DS is a DS recreation of a fighting game made by Zethros, named SMBZ-G, both of which are fangames of the Super Mario Bros. Z animated flash series by Alvin-Earthworm. FAT Release is"
+				"description": "SMBZ-DS is a DS recreation of a fighting game made by Zethros, named SMBZ-G, both of which are fangames of the Super Mario Bros. Z animated flash series by Alvin-Earthworm. FAT Release is recommended."
 			}
 		},
 		{
-			"Download: [{
-				"file": "h ",
+			"CIA Download: [{
+				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Download",
-				"output": " ,
+				"output": "sdmc:/TalknessStore/tmp/ZIP.zip,
 				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting the ZIP..",
+				"input": "/",
+				"output": "/TalknessStore/tmp",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
+				"message": "Installing the app...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Deleting unneeded stuff...",
+				"type": "deleteFile"
 			}],
 			"info": {
-				"title": " ",
-				"version": " ",
-				"author": " ",
+				"title": "ClassicSpikeDislike",
+				"version": "1",
+				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
 				"icon_index": 2181,
-				"license": "",
-				"description": " "
+				"license": "Mixed",
+				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
 			}
 		},
 		{
@@ -81,7 +112,7 @@
 				},
 				{
 					"file": "/TalknessStore/tmp/MicroClampett.cia",
-					"message": "Installing the CIA...",
+					"message": "Installing the app...",
 					"type": "installCia"
 				},
 				{
@@ -92,7 +123,7 @@
 			],
 			"info": {
 				"title": "Micro Clampett",
-				"version": "20180422",
+				"version": "1",
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
