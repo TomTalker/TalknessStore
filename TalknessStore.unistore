@@ -4,7 +4,7 @@
 		"file": "TalknessStore.unistore",
 		"title": "TalknessStore",
 		"author": "TomTalker",
-		"description": "Another place to download homebrew.\nAuthor: TomTalker (Sonic Revolution)\nVersion: 0\nHomebrew is not mine and credit is given",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nVersion: 0\nHomebrew is not mine and credit is given",
 		"sheet": "universal-db.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3,
@@ -30,14 +30,14 @@
 			}
 		},
 		{
-			"Download": [{
+			"NitroFS Download": [{
 				"file": " ",
-				"message": "Downloading A release...",
-				"output": "s",
+				"message": "Downloading the app...",
+				"output": "smdc:/roms/nds/SMBZDS-NitroFun.nds",
 				"type": "downloadFile"
 			}],
 			"info": {
-				"title": " ",
+				"title": "SMBZ DS",
 				"version": " ",
 				"author": " ",
 				"category": ["game"],
