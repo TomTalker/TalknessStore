@@ -3,4 +3,5 @@
 - ~~"TalknessStore.unistore" file to be run though Universal-Updater, which you can download seperately.~~
 - ~~You can ignore the Downloads folder in this repo, it is where the downloads actually are.~~
 
-# UNISTORE IS IN EARLY TESTING, DO NOT USE ATM
+# Release Notes
+- **UNISTORE IS IN EARLY TESTING, DO NOT USE ATM**
