@@ -4,4 +4,4 @@
 - You can ignore the Downloads folder in this repo, it is where the downloads actually are.
 
 # Release Notes
-- **UNISTORE IS IN EARLY TESTING, BE AWARE**
+- ***UNISTORE IS IN EARLY TESTING, BE AWARE***
