@@ -62,10 +62,10 @@
 			}
 		},
 		{
-			"CIA Download: [{
+			"CIA Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Download",
-				"output": "sdmc:/TalknessStore/tmp/ZIP.zip,
+				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 		},
 		{
