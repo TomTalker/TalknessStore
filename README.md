@@ -5,3 +5,4 @@
 
 # Release Notes
 - ***UNISTORE IS IN EARLY TESTING, BE AWARE***
+- **The apps have no proper t3x because I can't do it :)**
