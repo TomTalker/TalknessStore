@@ -35,8 +35,7 @@
 				"message": "Downloading the app...",
 				"output": "smdc:/roms/nds/SMBZDS-NitroFun.nds",
 				"type": "downloadFile"
-		},
-		{
+		}],
 			"FAT Download": [{
 				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/SMBZDS-FAT.zip",
 				"message": "Downloading the ZIP...",
