@@ -14,7 +14,7 @@
 			"3DSX Release": [{
 					"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/ccleste.3dsx",
 					"message": "Downloading the app...",
-					"output": "sdmc:/3ds/ccleste.3dsx",
+					"output": "%3DSX%/ccleste.3dsx",
 					"type": "downloadFile"
 				}
 			],
@@ -33,7 +33,7 @@
 			"NDS Release": [{
 				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/SuperPongBros.nds",
 				"message": "Downloading the app...",
-				"output": "smdc:/roms/nds/SuperPongBros.nds",
+				"output": "%NDS%/SuperPongBros.nds",
 				"type": "downloadFile"
 			}],
 			"info": {
