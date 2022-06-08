@@ -26,6 +26,7 @@
 				"console": ["3DS"],
 				"icon_index": 2312,
 				"license": "Mixed",
+				"last_updated": "24/11/21",
 				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
 			}
 		},
