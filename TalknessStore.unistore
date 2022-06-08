@@ -4,11 +4,11 @@
 		"file": "TalknessStore.unistore",
 		"title": "TalknessStore",
 		"author": "TomTalker",
-		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nVersion: 0\nHomebrew is not mine and credit is given",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\Revision: 3\nHomebrew is not mine and credit is given",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.t3x",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
 	"storeContent": [{
 			"3DSX Release": [{
@@ -27,25 +27,6 @@
 				"icon_index": 2312,
 				"license": "Mixed",
 				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
-			}
-		},
-		{
-			"NDS Release": [{
-				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/SuperPongBros.nds",
-				"message": "Downloading the app...",
-				"output": "%NDS%/SuperPongBros.nds",
-				"type": "downloadFile"
-			}],
-			"info": {
-				"title": "SuperPongBros",
-				"version": "2008",
-				"author": "DELCA",
-				"category": ["game"],
-				"console": ["NDS"],
-				"icon_index": 21662,
-				"license": "Mixed",
-				"description": "The two brothers who climb the poles to send a fireball back to each other."
-				"fileSize": 268KB
 			}
 		},
 		{
