@@ -31,10 +31,29 @@
 		},
 		{
 			"NDS Release": [{
-				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/FeeDaFish.nds",
-				"message": "Downloading the app...",
-				"output": "%NDS%/SuperPongBros.nds",
+				"file": "https://dlhb.gamebrew.org/dshomebrew/superpongbros.7z",
+				"message": "Download",
+				"output": "sdmc:/TalknessStore/tmp/ZIP.7z",
 				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.7z",
+				"message": "Extracting the ZIP..",
+				"input": "/SuperPongBros.rar",
+				"output": "/TalknessStore/tmp/ZIP.rar",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
+				"message": "Installing the app...",
+				"input": "/SuperPongBros.rar",
+				"output": "/TalknessStore/tmp/ZIP.rar",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Deleting unneeded stuff...",
+				"type": "deleteFile"
 			}],
 			"info": {
 				"title": "SuperPongBros",
