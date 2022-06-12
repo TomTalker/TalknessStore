@@ -33,19 +33,19 @@
 			"NDS Release": [{
 				"file": "https://dlhb.gamebrew.org/dshomebrew/superpongbros.7z",
 				"message": "Download",
-				"output": "sdmc:/TalknessStore/tmp/ZIP.7z",
+				"output": "sdmc:/TalknessStore/tmp/7Z.7z",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.7z",
-				"message": "Extracting the ZIP..",
+				"file": "/TalknessStore/tmp/7Z.7z",
+				"message": "Extracting the 7z..",
 				"input": "/SuperPongBros.rar",
-				"output": "/TalknessStore/tmp/ZIP.rar",
+				"output": "/TalknessStore/tmp/RAR.rar",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.rar",
-				"message": "Extracting the ZIP...",
+				"file": "/TalknessStore/tmp/RAR.rar",
+				"message": "Extracting the RAR...",
 				"input": "/PongDS.nds",
 				"output": "/%NDS%/SuperPongBros.nds",
 				"type": "extractFile"
