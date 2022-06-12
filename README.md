@@ -1,3 +1,5 @@
+# ***UNISTORE GOING PRIVATE ON 18th JUNE***
+
 # TalknessStore
 - A database of games and applications.
 - "TalknessStore.unistore" file to be run though Universal-Updater, which you can download seperately.
