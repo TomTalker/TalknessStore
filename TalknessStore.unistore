@@ -44,10 +44,10 @@
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
-				"message": "Installing the app...",
-				"input": "/SuperPongBros.rar",
-				"output": "/TalknessStore/tmp/ZIP.rar",
+				"file": "/TalknessStore/tmp/ZIP.rar",
+				"message": "Extracting the ZIP...",
+				"input": "/PongDS.nds",
+				"output": "/%NDS%/SuperPongBros.nds",
 				"type": "extractFile"
 		},
 		{
