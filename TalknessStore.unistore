@@ -1,0 +1,122 @@
+{
+	"storeInfo": {
+		"url": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.unistore",
+		"file": "TalknessStore.unistore",
+		"title": "TalknessStore",
+		"author": "TomTalker",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nVersion: 0\nHomebrew is not mine and credit is given",
+		"sheet": "TalknessStore.t3x",
+		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.t3x",
+		"version": 3,
+		"revision": 2
+	},
+	"storeContent": [{
+			"3DSX Release": [{
+					"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/ccleste.3dsx",
+					"message": "Downloading the app...",
+					"output": "%3DSX%/ccleste.3dsx",
+					"type": "downloadFile"
+				}
+			],
+			"info": {
+				"title": "ccleste",
+				"version": "1.4.0",
+				"author": "lemon32767",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 2312,
+				"license": "Mixed",
+				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
+			}
+		},
+		{
+			"NDS Release": [{
+				"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/FeeDaFish.nds",
+				"message": "Downloading the app...",
+				"output": "%NDS%/SuperPongBros.nds",
+				"type": "downloadFile"
+			}],
+			"info": {
+				"title": "SuperPongBros",
+				"version": "2008",
+				"author": "DELCA",
+				"category": ["game"],
+				"console": ["NDS"],
+				"icon_index": 21662,
+				"license": "Mixed",
+				"description": "The two brothers who climb the poles to send a fireball back to each other."
+			}
+		},
+		{
+			"CIA Release": [{
+				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+				"message": "Download",
+				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting the ZIP..",
+				"input": "/",
+				"output": "/TalknessStore/tmp",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
+				"message": "Installing the app...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Deleting unneeded stuff...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "ClassicSpikeDislike",
+				"version": "1",
+				"author": "Jayenkai",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 2181,
+				"license": "Mixed",
+				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
+			}
+		},
+		{
+			"CIA Release": [{
+					"file": "https://tinyurl.com/3dsgamebrewgame",
+					"message": "Downloading the ZIP...",
+					"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+					"type": "downloadFile"
+				},
+				{
+					"file": "/TalknessStore/tmp/ZIP.zip",
+					"message": "Extracting the ZIP..",
+					"input": "/",
+					"output": "/TalknessStore/tmp",
+					"type": "extractFile"
+				},
+				{
+					"file": "/TalknessStore/tmp/MicroClampett.cia",
+					"message": "Installing the app...",
+					"type": "installCia"
+				},
+				{
+					"file": "/TalknessStore/tmp",
+					"message": "Deleting unneeded stuff...",
+					"type": "deleteFile"
+				}
+			],
+			"info": {
+				"title": "Micro Clampett",
+				"version": "1",
+				"author": "Jayenkai",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 8210,
+				"license": "Mixed",
+				"description": "Guide little Clampett through the crazy maze, trying to find the way out. Clampett needs to find the exit, but it might be a good idea to collect some of the items first..."
+			}
+		}
+	]
+}
