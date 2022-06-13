@@ -24,7 +24,7 @@
 				"author": "lemon32767",
 				"category": ["game"],
 				"console": ["3DS"],
-				"icon_index": 2312,
+				"icon_index": 999,
 				"license": "Mixed",
 				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
 			}
@@ -61,7 +61,7 @@
 				"author": "DELCA",
 				"category": ["game"],
 				"console": ["NDS"],
-				"icon_index": 21662,
+				"icon_index": 999,
 				"license": "Mixed",
 				"description": "The two brothers who climb the poles to send a fireball back to each other."
 			}
@@ -96,7 +96,7 @@
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
-				"icon_index": 2181,
+				"icon_index": 999,
 				"license": "Mixed",
 				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
 			}
@@ -132,7 +132,7 @@
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
-				"icon_index": 8210,
+				"icon_index": 999,
 				"license": "Mixed",
 				"description": "Guide little Clampett through the crazy maze, trying to find the way out. Clampett needs to find the exit, but it might be a good idea to collect some of the items first..."
 			}
