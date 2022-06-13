@@ -1,18 +1,18 @@
 {
 	"storeInfo": {
-		"url": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/Extras/TalknessStoreEAL.unistore",
+		"url": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/Extras/TalknessStoreEAL.unistore",
 		"file": "TalknessStoreEAL.unistore",
 		"title": "TalknessStoreEAL",
 		"author": "TomTalker",
 		"description": "TalknessStore EA(R)L(Y) is unstable builds of the real thing./nStable builds are recommended.",
 		"sheet": "TalknessStore.t3x",
-		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.t3x",
+		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 4
+		"revision": 1
 	},
 	"storeContent": [{
 			"3DSX Release": [{
-					"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/ccleste.3dsx",
+					"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/ccleste.3dsx",
 					"message": "Downloading the app...",
 					"output": "%3DSX%/ccleste.3dsx",
 					"type": "downloadFile"
