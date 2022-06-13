@@ -1,18 +1,18 @@
 {
 	"storeInfo": {
-		"url": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.unistore",
+		"url": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.unistore",
 		"file": "TalknessStore.unistore",
 		"title": "TalknessStore",
 		"author": "TomTalker",
-		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 4\nHomebrew is not mine and credit is given",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 5\nHomebrew is not mine and credit is given",
 		"sheet": "TalknessStore.t3x",
-		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/main/TalknessStore.t3x",
+		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 4
+		"revision": 5
 	},
 	"storeContent": [{
 			"3DSX Release": [{
-					"file": "https://github.com/TomTalker/TalknessStore/raw/main/Downloads/ccleste.3dsx",
+					"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/ccleste.3dsx",
 					"message": "Downloading the app...",
 					"output": "%3DSX%/ccleste.3dsx",
 					"type": "downloadFile"
