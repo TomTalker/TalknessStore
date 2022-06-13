@@ -5,7 +5,7 @@
 
 # Notes
 - ***UNISTORE IS IN EARLY TESTING, BE AWARE***
-- The apps have no proper t3x at the moment because I can't do it :)
+- The apps have no icon displayed at the moment
 
 # Special Thanks
 - Ghost0159
