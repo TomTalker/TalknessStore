@@ -30,16 +30,28 @@
 			}
 		},
 		{
-					"3DSX Release": [{
-					"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/ccleste.3dsx",
-					"message": "Downloading the app...",
-					"output": "%3DSX%/ccleste.3dsx",
-					"type": "downloadFile"
+			"3DSX Release": [{
+				"file": "https://cdn-114.anonfiles.com/F7h4ycpdy0/c41694cd-1655146602/2048-3D-0.3.2.zip",
+				"message": "Downloading the app...",
+			        "output": "smdc:/zip.zip.zip",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/zip.zip.zip",
+				"message": "Extracting the ZIP..",
+				"input": "/",
+				"output": "/3ds",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/zip.zip.zip"
+				"message": "Deleting unneeded stuff...",
+				"type": "deleteFile"
 				}
 			],
 			"info": {
-				"title": "ccleste",
-				"version": "1.4.0",
+				"title": "2048 3D",
+				"version": "0.3.2",
 				"author": "lemon32767",
 				"category": ["game"],
 				"console": ["3DS"],
