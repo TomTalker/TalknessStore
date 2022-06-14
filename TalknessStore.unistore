@@ -4,11 +4,11 @@
 		"file": "TalknessStore.unistore",
 		"title": "TalknessStore",
 		"author": "TomTalker",
-		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 6\nHomebrew is not mine and credit is given",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 7\nHomebrew is not mine and credit is given",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 6
+		"revision": 7
 	},
 	"storeContent": [{
 			"3DSX Release": [{
