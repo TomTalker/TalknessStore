@@ -31,29 +31,10 @@
 		},
 		{
 			"NDS Release": [{
-				"file": "https://dlhb.gamebrew.org/dshomebrew/superpongbros.7z",
+				"file": "https://www.dropbox.com/s/hy8bvwod1ttw97l/SonicBall.nds?dl=1",
 				"message": "Download",
-				"output": "sdmc:/TalknessStore/tmp/7Z.7z",
+				"output": "%NDS%/SonicBall.nds",
 				"type": "downloadFile"
-		},
-		{
-				"file": "/TalknessStore/tmp/7Z.7z",
-				"message": "Extracting the 7z..",
-				"input": "/SuperPongBros.rar",
-				"output": "/TalknessStore/tmp/RAR.rar",
-				"type": "extractFile"
-		},
-		{
-				"file": "/TalknessStore/tmp/RAR.rar",
-				"message": "Extracting the RAR...",
-				"input": "/PongDS.nds",
-				"output": "/%NDS%/SuperPongBros.nds",
-				"type": "extractFile"
-		},
-		{
-				"file": "/TalknessStore/tmp",
-				"message": "Deleting unneeded stuff...",
-				"type": "deleteFile"
 			}],
 			"info": {
 				"title": "Sonic Ball",
