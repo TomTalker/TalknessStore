@@ -81,14 +81,14 @@
 			}],
 			"info": {
 				"title": "ClassicSpikeDislike",
-				"version": "1",
+				"version": "20190208",
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
 				"icon_index": 999,
 				"icon_url": "https://cdn.discordapp.com/attachments/718169914136985662/986299366400745492/unknown.png",
 				"license": "Mixed",
-				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
+				"description": "There are some Spikes. You are a Ball. Do what comes naturally. And Dislike them all."
 			}
 		},
 		{
