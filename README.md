@@ -15,9 +15,8 @@
 ##### QR Code (Stable)
   <a href="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStore.unistore.png?raw=true"><img src="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStore.unistore.png?raw=true" height="300px"></a>
   
-  ##### QR Code (Unstable)
-    <a href="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStoreERL.unistore.png?raw=true"><img src="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStoreERL.unistore.png?raw=true" height="300px"></a>
-
+##### QR Code (Unstable)
+  <a href="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStoreERL.unistore.png?raw=true"><img src="https://github.com/TomTalker/TalknessStore/blob/master/Downloads/Extras/TalknessStoreERL.unistore.png?raw=true" height="300px"></a>
 
   </details></details>
 
