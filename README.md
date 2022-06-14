@@ -7,6 +7,10 @@
 - ***UNISTORE IS IN EARLY TESTING, BE AWARE***
 - The apps have no icon displayed at the moment
 
+#### Download
+- Head over to https://github.com/TomTalker/TalknessStore/TalknessStore.unistore to download.
+- Or alternatively use these QR Codes to download from Universal-Updater
+
 # Special Thanks
 - Ghost0159
 - Universal-Updater Team
