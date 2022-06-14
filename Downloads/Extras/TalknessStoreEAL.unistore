@@ -1,14 +1,14 @@
 {
 	"storeInfo": {
-		"url": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/Extras/TalknessStoreEAL.unistore",
-		"file": "TalknessStoreEAL.unistore",
-		"title": "TalknessStoreEAL",
+		"url": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.unistore",
+		"file": "TalknessStore.unistore",
+		"title": "TalknessStore",
 		"author": "TomTalker",
-		"description": "TalknessStore EA(R)L(Y) is unstable builds of the real thing./nStable builds are recommended.",
+		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 5\nHomebrew is not mine and credit is given",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 1
+		"revision": 5
 	},
 	"storeContent": [{
 			"3DSX Release": [{
@@ -30,52 +30,48 @@
 			}
 		},
 		{
-			"3DSX Release": [{
-				"file": "https://cdn-114.anonfiles.com/F7h4ycpdy0/c41694cd-1655146602/2048-3D-0.3.2.zip",
-				"message": "Downloading the app...",
-			        "output": "smdc:/zip.zip.zip",
+			"NDS Release": [{
+				"file": "https://dlhb.gamebrew.org/dshomebrew/superpongbros.7z",
+				"message": "Download",
+				"output": "sdmc:/TalknessStore/tmp/7Z.7z",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/zip.zip.zip",
-				"message": "Extracting the ZIP..",
-				"input": "/",
-				"output": "/3ds",
+				"file": "/TalknessStore/tmp/7Z.7z",
+				"message": "Extracting the 7z..",
+				"input": "/SuperPongBros.rar",
+				"output": "/TalknessStore/tmp/RAR.rar",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/zip.zip.zip"
-				"message": "Deleting unneeded stuff...",
-				"type": "deleteFile"
-				}
-			],
-			"info": {
-				"title": "2048 3D",
-				"version": "0.3.2",
-				"author": "lemon32767",
-				"category": ["game"],
-				"console": ["3DS"],
-				"icon_index": 999,
-				"license": "Mixed",
-				"description": "ccleste is a C source port of the Celeste Classic to the 3DS. Celeste Classic was the original free version of Celeste, created back in 2016. It is a platformer about hiking around a mountain, written for the Pico-8 virtual console by Matt Thorson and Noel Berry."
-			}
-		},
-		{
-			"NDS Release": [{
-				"file": "https://cdn-103.anonfiles.com/feP0xbpdy3/e524b976-1655145490/PongDS.sc.nds",
-				"message": "Download",
+				"file": "/TalknessStore/tmp/RAR.rar",
+				"message": "Extracting the RAR...",
+				"input": "/PongDS.nds",
 				"output": "/%NDS%/SuperPongBros.nds",
 				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Deleting unneeded stuff...",
+				"type": "deleteFile"
 			}],
 			"info": {
-				"title": "SuperPongBros",
-				"version": "2008",
-				"author": "DELCA",
+				"title": "Sonic Ball",
+				"version": "2006",
+				"author": "N64Francois (Hamza)",
 				"category": ["game"],
 				"console": ["NDS"],
 				"icon_index": 999,
 				"license": "Mixed",
-				"description": "The two brothers who climb the poles to send a fireball back to each other."
+				"screenshots": 
+		            [{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sonicball.png",
+		            			"description": "Title Screen"
+		            		},{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sonicball2.png",
+		            			"description": "Gameplay"
+		            		}],
+				"description": "Play as Sonic and you must destroy Dr Robotnik and get all the emeralds back from him as quickly as possible, through 10 levels."
 			}
 		},
 		{
