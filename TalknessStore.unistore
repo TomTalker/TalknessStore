@@ -56,14 +56,14 @@
 				"type": "deleteFile"
 			}],
 			"info": {
-				"title": "SuperPongBros",
-				"version": "2008",
-				"author": "DELCA",
+				"title": "Sonic Ball",
+				"version": "2006",
+				"author": "N64Francois (Hamza)",
 				"category": ["game"],
 				"console": ["NDS"],
 				"icon_index": 999,
 				"license": "Mixed",
-				"description": "The two brothers who climb the poles to send a fireball back to each other."
+				"description": "Sonic Ball is a DS homebrew arcade game inspired by Arkanoid, made with PA_Lib."
 			}
 		},
 		{
