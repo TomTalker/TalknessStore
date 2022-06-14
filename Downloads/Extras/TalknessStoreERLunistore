@@ -1,14 +1,14 @@
 {
 	"storeInfo": {
-		"url": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.unistore",
-		"file": "TalknessStore.unistore",
-		"title": "TalknessStore",
+		"url": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/Extras/TalknessStoreERL.unistore",
+		"file": "TalknessStoreERL.unistore",
+		"title": "TalknessStoreERL",
 		"author": "TomTalker",
-		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 5\nHomebrew is not mine and credit is given",
+		"description": "E(A)RL(Y) versions of TalknessStore.\nStable releases are recommended.",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 5
+		"revision": 1
 	},
 	"storeContent": [{
 			"3DSX Release": [{
