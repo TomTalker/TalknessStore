@@ -63,6 +63,14 @@
 				"console": ["NDS"],
 				"icon_index": 999,
 				"license": "Mixed",
+				"screenshots": 
+		            [{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sonicball.png",
+		            			"description": "Title Screen"
+		            		},{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sonicball2.png",
+		            			"description": "Gameplay"
+		            		}],
 				"description": "Play as Sonic and you must destroy Dr Robotnik and get all the emeralds back from him as quickly as possible, through 10 levels."
 			}
 		},
