@@ -10,7 +10,7 @@
 # Download
 <details><summary><B>Downloading the UniStore</B></summary>
 
-- Head over to https://github.com/TomTalker/TalknessStore/TalknessStore.unistore to download.
+- Head over to [https://github.com/TomTalker/TalknessStore/TalknessStore.unistore](here) to download.
 - Or alternatively use these QR Codes to download from Universal-Updater
 
 ##### QR Code (Stable)
