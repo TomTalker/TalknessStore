@@ -105,6 +105,7 @@
 				"category": ["game"],
 				"console": ["3DS"],
 				"icon_index": 999,
+				"icon_url": "https://cdn.discordapp.com/attachments/718169914136985662/986299366400745492/unknown.png",
 				"license": "Mixed",
 				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
 			}
@@ -141,6 +142,7 @@
 				"category": ["game"],
 				"console": ["3DS"],
 				"icon_index": 999,
+				"icon_url": "https://cdn.discordapp.com/attachments/718169914136985662/986299309270126703/unknown.png",
 				"license": "Mixed",
 				"description": "Guide little Clampett through the crazy maze, trying to find the way out. Clampett needs to find the exit, but it might be a good idea to collect some of the items first..."
 			}
