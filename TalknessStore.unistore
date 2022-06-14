@@ -63,7 +63,7 @@
 				"console": ["NDS"],
 				"icon_index": 999,
 				"license": "Mixed",
-				"description": "Sonic Ball is a DS homebrew arcade game inspired by Arkanoid, made with PA_Lib."
+				"description": "Play as Sonic and you must destroy Dr Robotnik and get all the emeralds back from him as quickly as possible, through 10 levels."
 			}
 		},
 		{
