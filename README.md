@@ -3,7 +3,7 @@
 # TalknessStore
 - A database of games and applications.
 - "TalknessStore.unistore" file to be run though Universal-Updater, which you can download seperately.
-- You can ignore the Downloads folder in this repo, it is where the downloads actually are.
+- You can ignore the Downloads folder in this repo unless you want the ERL version of TalknessStore. 
 
 # Download
 <details><summary><B>Downloading the UniStore</B></summary>
