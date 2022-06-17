@@ -8,12 +8,12 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 1
+		"revision": 2
 	},
 	"storeContent": [{
-			"3DSX Release": [{
+			"3DSX Download": [{
 					"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/ccleste.3dsx",
-					"message": "Downloading the app...",
+					"message": "Downloading...",
 					"output": "%3DSX%/ccleste.3dsx",
 					"type": "downloadFile"
 				}
@@ -30,9 +30,9 @@
 			}
 		},
 		{
-			"NDS Release": [{
+			"NDS Download": [{
 				"file": "https://www.dropbox.com/s/hy8bvwod1ttw97l/SonicBall.nds?dl=1",
-				"message": "Download",
+				"message": "Downloading...",
 				"output": "%NDS%/SonicBall.nds",
 				"type": "downloadFile"
 			}],
@@ -56,27 +56,54 @@
 			}
 		},
 		{
-			"CIA Release": [{
+			"CIA Download": [{
+				"file": "https://web.archive.org/web/20220617172837if_/https://download4.erista.me/content/21484?token=dc139af8216fbcaa3648e43e9f61e096",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/CIA.cia",
+				"message": "Installing...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "Google Translate",
+				"version": "1.0.0",
+				"author": "",
+				"category": ["apps"],
+				"console": ["3DS"],
+				"icon_index": 999,
+				"description": "Google Translate for 3DS."
+			}
+		},
+		{
+			"CIA Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
-				"message": "Download",
+				"message": "Downloading...",
 				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 		},
 		{
 				"file": "/TalknessStore/tmp/ZIP.zip",
-				"message": "Extracting the ZIP..",
+				"message": "Extracting...",
 				"input": "/",
 				"output": "/TalknessStore/tmp",
 				"type": "extractFile"
 		},
 		{
 				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
-				"message": "Installing the app...",
+				"message": "Installing...",
 				"type": "installCia"
 		},
 		{
 				"file": "/TalknessStore/tmp",
-				"message": "Deleting unneeded stuff...",
+				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
 			"info": {
@@ -92,27 +119,27 @@
 			}
 		},
 		{
-			"CIA Release": [{
+			"CIA Download": [{
 					"file": "https://tinyurl.com/3dsgamebrewgame",
-					"message": "Downloading the ZIP...",
+					"message": "Downloading...",
 					"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
 					"type": "downloadFile"
 				},
 				{
 					"file": "/TalknessStore/tmp/ZIP.zip",
-					"message": "Extracting the ZIP..",
+					"message": "Extracting..",
 					"input": "/",
 					"output": "/TalknessStore/tmp",
 					"type": "extractFile"
 				},
 				{
 					"file": "/TalknessStore/tmp/MicroClampett.cia",
-					"message": "Installing the app...",
+					"message": "Installing...",
 					"type": "installCia"
 				},
 				{
 					"file": "/TalknessStore/tmp",
-					"message": "Deleting unneeded stuff...",
+					"message": "Cleaning...",
 					"type": "deleteFile"
 				}
 			],
