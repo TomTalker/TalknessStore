@@ -3,7 +3,7 @@
 		"url": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/Extras/TalknessStoreERL.unistore",
 		"file": "TalknessStoreERL.unistore",
 		"title": "TalknessStoreERL",
-		"author": "TomTalker",
+		"author": "TomTalker (Sonic Revolution)",
 		"description": "E(A)RL(Y) versions of TalknessStore.\nStable releases are highly recommended.",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
@@ -75,7 +75,6 @@
 			"info": {
 				"title": "Google Translate",
 				"version": "1.0.0",
-				"author": "",
 				"category": ["apps"],
 				"console": ["3DS"],
 				"icon_index": 999,
