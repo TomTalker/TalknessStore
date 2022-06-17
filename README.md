@@ -1,4 +1,4 @@
-<div align="center"><a href="https://github.com/TomTalker/TalknessStore/blob/master/TalknessStore.unistore"><img src="https://github.com/TomTalker/TalknessStore/blob/master/Resources/Logo/TalknessStoreBlackAlt-1800x500.png?raw=true" height="170px"></a></div>
+<div align="center"><a href="https://github.com/TomTalker/TalknessStore/blob/master/TalknessStore.unistore"><img src="https://github.com/TomTalker/TalknessStore/blob/master/Resources/Logo/TalknessStoreBlack-1080x1080.png?raw=true" height="270px"></a></div>
 
 # TalknessStore
 - A database of games and applications.
