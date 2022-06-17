@@ -3,12 +3,12 @@
 		"url": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.unistore",
 		"file": "TalknessStore.unistore",
 		"title": "TalknessStore",
-		"author": "TomTalker",
-		"description": "Another place to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nRevision: 8\nHomebrew is not mine and credit is given",
+		"author": "TomTalker (Sonic Revolution)",
+		"description": "Another unistore to download games and apps.\nAuthor: TomTalker (Sonic Revolution)\nHomebrew is not mine and credit is given\n(when creator is found)",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 8
+		"revision": 9
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -76,7 +76,7 @@
 		},
 		{
 				"file": "/TalknessStore/tmp",
-				"message": "Deleting...",
+				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
 			"info": {
@@ -112,13 +112,13 @@
 				},
 				{
 					"file": "/TalknessStore/tmp",
-					"message": "Deleting...",
+					"message": "Cleaning...",
 					"type": "deleteFile"
 				}
 			],
 			"info": {
 				"title": "Micro Clampett",
-				"version": "1",
+				"version": "20180422",
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["3DS"],
