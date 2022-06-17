@@ -84,6 +84,33 @@
 		},
 		{
 			"CIA Download": [{
+				"file": "https://download4.erista.me/content/21310?token=208df6b7160f8fd4ba2aec4d1a170274",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/CIA.cia",
+				"message": "Installing...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "JumpingJack",
+				"version": "2.0.0",
+				"author": "",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 999,
+				"description": "Jumping Jack 3DS"
+			}
+		},
+		{
+			"CIA Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Downloading...",
 				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
