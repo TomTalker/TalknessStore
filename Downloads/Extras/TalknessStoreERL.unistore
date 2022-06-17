@@ -4,11 +4,11 @@
 		"file": "TalknessStoreERL.unistore",
 		"title": "TalknessStoreERL",
 		"author": "TomTalker",
-		"description": "E(A)RL(Y) versions of TalknessStore.\nStable releases are recommended.",
+		"description": "E(A)RL(Y) versions of TalknessStore.\nStable releases are highly recommended.",
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
 	"storeContent": [{
 			"3DSX Download": [{
