@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 9
+		"revision": 10
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -57,6 +57,59 @@
 		},
 		{
 			"CIA Download": [{
+				"file": "https://web.archive.org/web/20220617172837if_/https://download4.erista.me/content/21484?token=dc139af8216fbcaa3648e43e9f61e096",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/CIA.cia",
+				"message": "Installing...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "Google Translate",
+				"version": "1.0.0",
+				"category": ["apps"],
+				"console": ["3DS"],
+				"icon_index": 999,
+				"description": "Google Translate for 3DS."
+			}
+		},
+		{
+			"CIA Download": [{
+				"file": "https://download4.erista.me/content/21310?token=208df6b7160f8fd4ba2aec4d1a170274",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/CIA.cia",
+				"message": "Installing...",
+				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "JumpingJack",
+				"version": "2.0.0",
+				"author": "",
+				"category": ["game"],
+				"console": ["3DS"],
+				"icon_index": 999,
+				"description": "Jumping Jack 3DS"
+			}
+		},
+		{
+			"CIA Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Downloading...",
 				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
@@ -64,7 +117,7 @@
 		},
 		{
 				"file": "/TalknessStore/tmp/ZIP.zip",
-				"message": "Extracting..",
+				"message": "Extracting...",
 				"input": "/",
 				"output": "/TalknessStore/tmp",
 				"type": "extractFile"
@@ -88,7 +141,7 @@
 				"icon_index": 999,
 				"icon_url": "https://cdn.discordapp.com/attachments/718169914136985662/986299366400745492/unknown.png",
 				"license": "Mixed",
-				"description": "There are some Spikes. You are a Ball. Do what comes naturally. And Dislike them all."
+				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
 			}
 		},
 		{
@@ -100,7 +153,7 @@
 				},
 				{
 					"file": "/TalknessStore/tmp/ZIP.zip",
-					"message": "Extracting...",
+					"message": "Extracting..",
 					"input": "/",
 					"output": "/TalknessStore/tmp",
 					"type": "extractFile"
