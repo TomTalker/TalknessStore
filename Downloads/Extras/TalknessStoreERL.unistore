@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 3
+		"revision": 4
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -126,6 +126,31 @@
 				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
 				"message": "Installing...",
 				"type": "installCia"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"3DSX Download": [{
+				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting...",
+				"input": "/misc/ClassicSpikeDislike.3dsx",
+				"output": "/%3DSX/ClassicSpikeDislike.3dsx",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting...",
+				"input": "/misc/ClassicSpikeDislike.smdh",
+				"output": "/%3DSX/ClassicSpikeDislike.smdh",
+				"type": "extractFile"
 		},
 		{
 				"file": "/TalknessStore/tmp",
