@@ -174,11 +174,11 @@
 			"NDS Download (Without Save)": [{
 				"file": "https://cdn-105.anonfiles.com/x12ef5r1yc/15c07b33-1655756565/SheepGoesLeftWithoutSave.nds",
 				"message": "Downloading...",
-				"output": "%NDS%/SpeepGoesLeft.nds",
+				"output": "%NDS%/SheepGoesLeft.nds",
 				"type": "downloadFile"
 			}],
 			"NDS Download (With Save)": [{
-				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+				"file": "https://cdn-105.anonfiles.com/L72ef6rdy5/50157be8-1655756623/JNK.zip",
 				"message": "Downloading...",
 				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
@@ -186,16 +186,15 @@
 		{
 				"file": "/TalknessStore/tmp/ZIP.zip",
 				"message": "Extracting...",
-				"input": "/misc/ClassicSpikeDislike.3dsx",
-				"output": "/%3DSX/ClassicSpikeDislike.3dsx",
+				"input": "/",
+				"output": "/",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
-				"message": "Extracting...",
-				"input": "/misc/ClassicSpikeDislike.smdh",
-				"output": "/%3DSX/ClassicSpikeDislike.smdh",
-				"type": "extractFile"
+				"file": "https://cdn-146.anonfiles.com/Fb3afbr7y9/765bb2d1-1655756739/SheepGoesLeftWithSave.nds",
+				"message": "Downloading...",
+				"output": "%NDS%/SheepGoesLeft.nds",
+				"type": "downloadFile"
 		},
 		{
 				"file": "/TalknessStore/tmp",
