@@ -75,6 +75,7 @@
 			"info": {
 				"title": "Google Translate",
 				"version": "1.0.0",
+				"author": "Core-2-Extreme",
 				"category": ["apps"],
 				"console": ["3DS"],
 				"icon_index": 999,
@@ -100,8 +101,8 @@
 			}],
 			"info": {
 				"title": "JumpingJack",
-				"version": "2.0.0",
-				"author": "",
+				"version": "0.9",
+				"author": "Zalo (cebolleto)",
 				"category": ["game"],
 				"console": ["3DS"],
 				"icon_index": 999,
