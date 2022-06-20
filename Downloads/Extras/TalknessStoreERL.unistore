@@ -171,6 +171,49 @@
 			}
 		},
 		{
+			"NDS Download (Without Save)": [{
+				"file": "https://cdn-105.anonfiles.com/x12ef5r1yc/15c07b33-1655756565/SheepGoesLeftWithoutSave.nds",
+				"message": "Downloading...",
+				"output": "%NDS%/SpeepGoesLeft.nds",
+				"type": "downloadFile"
+			}],
+			"NDS Download (With Save)": [{
+				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+				"message": "Downloading...",
+				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting...",
+				"input": "/misc/ClassicSpikeDislike.3dsx",
+				"output": "/%3DSX/ClassicSpikeDislike.3dsx",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting...",
+				"input": "/misc/ClassicSpikeDislike.smdh",
+				"output": "/%3DSX/ClassicSpikeDislike.smdh",
+				"type": "extractFile"
+		},
+		{
+				"file": "/TalknessStore/tmp",
+				"message": "Cleaning...",
+				"type": "deleteFile"
+			}],
+			"info": {
+				"title": "SheepGoesLeft",
+				"version": "1",
+				"author": "Jayenkai",
+				"category": ["game"],
+				"console": ["NDS"],
+				"icon_index": 999,
+				"license": "Mixed",
+				"description": "The sheep goes left."
+			}
+		},
+		{
 			"CIA Download": [{
 					"file": "https://tinyurl.com/3dsgamebrewgame",
 					"message": "Downloading...",
