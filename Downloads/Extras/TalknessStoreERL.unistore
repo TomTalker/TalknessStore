@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 4
+		"revision": 5
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -200,6 +200,18 @@
 				"file": "/TalknessStore/tmp",
 				"message": "Cleaning...",
 				"type": "deleteFile"
+			}],
+			"TWiLight Menu++ Cover (1)": [{
+				"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/SheepCase.png",
+				"message": "Downloading...",
+				"output": "%NDS%/SheepGoesLeft.png",
+				"type": "downloadFile"
+			}],
+			"TWiLight Menu++ Cover (2)": [{
+				"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/SheepCase_Alternative.png",
+				"message": "Downloading...",
+				"output": "%NDS%/SheepGoesLeft.png",
+				"type": "downloadFile"
 			}],
 			"info": {
 				"title": "SheepGoesLeft",
