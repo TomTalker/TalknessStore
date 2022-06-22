@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 5
+		"revision": 6
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -167,44 +167,38 @@
 				"icon_index": 999,
 				"icon_url": "https://cdn.discordapp.com/attachments/718169914136985662/986299366400745492/unknown.png",
 				"license": "Mixed",
-				"description": "Everyone loves spike dislike. Control the spike and avoid harmful stuff. Easy enough?"
+				"description": "There are some Spikes. You are a Ball. Do what comes naturally. And Dislike them all."
 			}
 		},
 		{
 			"NDS Download (Without Save)": [{
-				"file": "https://cdn-105.anonfiles.com/x12ef5r1yc/15c07b33-1655756565/SheepGoesLeftWithoutSave.nds",
+				"file": "https://cdn-104.anonfiles.com/NdWb8fr1ya/cf67d7c2-1655931378/SheepGoesLeftWithoutSave.sc.nds",
 				"message": "Downloading...",
-				"output": "%NDS%/SheepGoesLeft.nds",
+				"output": "/%NDS%/SheepGoesLeft.nds",
 				"type": "downloadFile"
 			}],
 			"NDS Download (With Save)": [{
-				"file": "https://cdn-105.anonfiles.com/L72ef6rdy5/50157be8-1655756623/JNK.zip",
+				"file": "https://cdn-108.anonfiles.com/5fXe81rfy3/74e61a55-1655931466/sheep_scores.dat",
 				"message": "Downloading...",
-				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"output": "sdmc:/sheep_scores.dat",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
-				"message": "Extracting...",
-				"input": "/",
-				"output": "/",
-				"type": "extractFile"
-		},
-		{
-				"file": "https://cdn-146.anonfiles.com/Fb3afbr7y9/765bb2d1-1655756739/SheepGoesLeftWithSave.nds",
+				"file": "https://cdn-149.anonfiles.com/31Xf80rey9/761020f1-1655931489/my_levels.txt",
 				"message": "Downloading...",
-				"output": "%NDS%/SheepGoesLeft.nds",
+				"output": "smdc:/my_levels.txt",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp",
-				"message": "Cleaning...",
-				"type": "deleteFile"
+				"file": "https://cdn-125.anonfiles.com/xaX68cr8y7/e8104bbe-1655931443/SheepGoesLeftWithSave.sc.nds",
+				"message": "Downloading...",
+				"output": "/%NDS%/SheepGoesLeft.nds",
+				"type": "downloadFile"
 			}],
 			"TWiLight Menu++ Cover (1)": [{
 				"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/SheepCase.png",
 				"message": "Downloading...",
-				"output": "%NDS%/SheepGoesLeft.png",
+				"output": "/SheepGoesLeft.png",
 				"type": "downloadFile"
 			}],
 			"TWiLight Menu++ Cover (2)": [{
@@ -215,13 +209,27 @@
 			}],
 			"info": {
 				"title": "SheepGoesLeft",
-				"version": "1",
+				"version": "2011",
 				"author": "Jayenkai",
 				"category": ["game"],
 				"console": ["NDS"],
 				"icon_index": 999,
 				"license": "Mixed",
-				"description": "The sheep goes left."
+				"screenshots": 
+		            [{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sheepgoesleft2.png",
+		            			"description": "Title Screen"
+		            		},{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sheepgoesleft3.png",
+		            			"description": "Gameplay"
+		            		},{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sheepgoesleft4.png",
+		            			"description": "Gameplay (2)"
+		            		},{
+		            			"url": "https://dlhb.gamebrew.org/dshomebrew/sheepgoesleft5.png",
+		            			"description": "Gameplay (3)"
+		            		}],
+				"description": "This is a DS homebrew port of the game Sheep Goes Left available for iDevices. It has 100 levels in total, taken from the iOS release."
 			}
 		},
 		{
