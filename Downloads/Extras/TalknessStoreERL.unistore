@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 7
+		"revision": 8
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -171,27 +171,28 @@
 			}
 		},
 		{
-			"NDS Download (Without Save)": [{
+			"NDS Download (With Save)": [{
 				"file": "https://agameaweek.com/completeB/2011/Sheep_Goes_Left_(DS)_20110807.zip",
 				"message": "Downloading...",
 				"output": "/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
-			}],
-			"NDS Download (With Save)": [{
-				"file": "https://cdn-108.anonfiles.com/5fXe81rfy3/74e61a55-1655931466/sheep_scores.dat",
-				"message": "Downloading...",
-				"output": "sdmc:/sheep_scores.dat",
-				"type": "downloadFile"
+		},
+		{
+				"file": "/TalknessStore/tmp/ZIP.zip",
+				"message": "Extracting...",
+				"input": "/",
+				"output": "/t",
+				"type": "extractFile"
 		},
 		{
 				"file": "https://cdn-149.anonfiles.com/31Xf80rey9/761020f1-1655931489/my_levels.txt",
-				"message": "Downloading...",
+				"message": "Extracting...",
 				"output": "smdc:/my_levels.txt",
 				"type": "downloadFile"
 		},
 		{
 				"file": "https://cdn-125.anonfiles.com/xaX68cr8y7/e8104bbe-1655931443/SheepGoesLeftWithSave.sc.nds",
-				"message": "Downloading...",
+				"message": "Extracting...",
 				"output": "/%NDS%/SheepGoesLeft.nds",
 				"type": "downloadFile"
 			}],
