@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 6
+		"revision": 7
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -172,9 +172,9 @@
 		},
 		{
 			"NDS Download (Without Save)": [{
-				"file": "https://cdn-104.anonfiles.com/NdWb8fr1ya/cf67d7c2-1655931378/SheepGoesLeftWithoutSave.sc.nds",
+				"file": "https://agameaweek.com/completeB/2011/Sheep_Goes_Left_(DS)_20110807.zip",
 				"message": "Downloading...",
-				"output": "/%NDS%/SheepGoesLeft.nds",
+				"output": "/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 			}],
 			"NDS Download (With Save)": [{
@@ -198,13 +198,13 @@
 			"TWiLight Menu++ Cover (1)": [{
 				"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/SheepCase.png",
 				"message": "Downloading...",
-				"output": "/SheepGoesLeft.png",
+				"output": "/_nds/TWiLightMenu/boxart/SheepGoesLeft.png",
 				"type": "downloadFile"
 			}],
 			"TWiLight Menu++ Cover (2)": [{
 				"file": "https://github.com/TomTalker/TalknessStore/raw/master/Downloads/SheepCase_Alternative.png",
 				"message": "Downloading...",
-				"output": "%NDS%/SheepGoesLeft.png",
+				"output": "/_nds/TWiLightMenu/boxart/SheepGoesLeft.png",
 				"type": "downloadFile"
 			}],
 			"info": {
