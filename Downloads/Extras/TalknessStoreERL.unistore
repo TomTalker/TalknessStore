@@ -59,16 +59,16 @@
 			"CIA Download": [{
 				"file": "https://web.archive.org/web/20220617172837if_/https://download4.erista.me/content/21484?token=dc139af8216fbcaa3648e43e9f61e096",
 				"message": "Downloading...",
-				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"output": "sdmc:/3ds/TalknessStore/tmp/CIA.cia",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/CIA.cia",
+				"file": "/3ds/TalknessStore/tmp/CIA.cia",
 				"message": "Installing...",
 				"type": "installCia"
 		},
 		{
-				"file": "/TalknessStore/tmp",
+				"file": "/3ds/TalknessStore/tmp",
 				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
@@ -86,16 +86,16 @@
 			"CIA Download": [{
 				"file": "https://download4.erista.me/content/21310?token=208df6b7160f8fd4ba2aec4d1a170274",
 				"message": "Downloading...",
-				"output": "sdmc:/TalknessStore/tmp/CIA.cia",
+				"output": "sdmc:/3ds/TalknessStore/tmp/CIA.cia",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/CIA.cia",
+				"file": "/3ds/TalknessStore/tmp/CIA.cia",
 				"message": "Installing...",
 				"type": "installCia"
 		},
 		{
-				"file": "/TalknessStore/tmp",
+				"file": "/3ds/TalknessStore/tmp",
 				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
@@ -113,48 +113,48 @@
 			"CIA Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Downloading...",
-				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"output": "sdmc:/3ds/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
+				"file": "/3ds/TalknessStore/tmp/ZIP.zip",
 				"message": "Extracting...",
 				"input": "/",
-				"output": "/TalknessStore/tmp",
+				"output": "/3ds/TalknessStore/tmp/",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ClassicSpikeDislike.cia",
+				"file": "/3ds/TalknessStore/tmp/ClassicSpikeDislike.cia",
 				"message": "Installing...",
 				"type": "installCia"
 		},
 		{
-				"file": "/TalknessStore/tmp",
+				"file": "/3ds/TalknessStore/tmp",
 				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
 			"3DSX Download": [{
 				"file": "https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
 				"message": "Downloading...",
-				"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+				"output": "sdmc:/3ds/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
+				"file": "/3ds/TalknessStore/tmp/ZIP.zip",
 				"message": "Extracting...",
 				"input": "/misc/ClassicSpikeDislike.3dsx",
 				"output": "/%3DSX/ClassicSpikeDislike.3dsx",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
+				"file": "/3ds/TalknessStore/tmp/ZIP.zip",
 				"message": "Extracting...",
 				"input": "/misc/ClassicSpikeDislike.smdh",
 				"output": "/%3DSX/ClassicSpikeDislike.smdh",
 				"type": "extractFile"
 		},
 		{
-				"file": "/TalknessStore/tmp",
+				"file": "/3ds/TalknessStore/tmp",
 				"message": "Cleaning...",
 				"type": "deleteFile"
 			}],
@@ -174,14 +174,14 @@
 			"NDS Download (With Save)": [{
 				"file": "https://agameaweek.com/completeB/2011/Sheep_Goes_Left_(DS)_20110807.zip",
 				"message": "Downloading...",
-				"output": "/TalknessStore/tmp/ZIP.zip",
+				"output": "/3ds/TalknessStore/tmp/ZIP.zip",
 				"type": "downloadFile"
 		},
 		{
-				"file": "/TalknessStore/tmp/ZIP.zip",
+				"file": "/3ds/TalknessStore/tmp/ZIP.zip",
 				"message": "Extracting...",
 				"input": "/",
-				"output": "/t",
+				"output": "/",
 				"type": "extractFile"
 		},
 		{
@@ -237,23 +237,23 @@
 			"CIA Download": [{
 					"file": "https://tinyurl.com/3dsgamebrewgame",
 					"message": "Downloading...",
-					"output": "sdmc:/TalknessStore/tmp/ZIP.zip",
+					"output": "sdmc:/3ds/TalknessStore/tmp/ZIP.zip",
 					"type": "downloadFile"
 				},
 				{
-					"file": "/TalknessStore/tmp/ZIP.zip",
+					"file": "/3ds/TalknessStore/tmp/ZIP.zip",
 					"message": "Extracting..",
 					"input": "/",
-					"output": "/TalknessStore/tmp",
+					"output": "/3ds/TalknessStore/tmp",
 					"type": "extractFile"
 				},
 				{
-					"file": "/TalknessStore/tmp/MicroClampett.cia",
+					"file": "/3ds/TalknessStore/tmp/MicroClampett.cia",
 					"message": "Installing...",
 					"type": "installCia"
 				},
 				{
-					"file": "/TalknessStore/tmp",
+					"file": "/3ds/TalknessStore/tmp",
 					"message": "Cleaning...",
 					"type": "deleteFile"
 				}
