@@ -8,7 +8,7 @@
 		"sheet": "TalknessStore.t3x",
 		"sheetURL": "https://github.com/TomTalker/TalknessStore/raw/master/TalknessStore.t3x",
 		"version": 3,
-		"revision": 10
+		"revision": 11
 	},
 	"storeContent": [{
 			"3DSX Download": [{
@@ -53,6 +53,10 @@
 				"message": "Downloading...",
 				"output": "sdmc:/3ds/TalknessStore/tmp/SonicBall.cia",
 				"type": "extractFile"
+		},
+		{
+				"message": "Note: You will need to have the SD Card Forwarder Pack downloaded\n\and NDS Bootstrap. Both things named are available\n\to download on "universal-updater.unistore". Please also\n\do not delete the /3ds/TalknessStore/ folder.",
+				"type": "promptMessage"
 		},
 		{
 				"file": "/3ds/TalknessStore/tmp/SonicBall.cia",
